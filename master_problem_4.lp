@@ -1,0 +1,13 @@
+\ Model MasterProblem
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+  z
+Subject To
+ R0: - 6 y >= -1200
+ R1: - 4 y + z <= 800
+ R2: 2 y + z <= 1200
+ R3: - 2 y + z <= 800
+Bounds
+Generals
+ y
+End
